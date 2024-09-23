@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Web - Exercício sobre HTML e CSS </title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="subtitulo"> Exercício de HTML e CSS</h1>
+    </header>
+    <hr>
+
+    <main>
+        <article>
+            <!-- <p><a href="index.html">Voltar para página inicial</a></p> -->
+            <h2> A Web </h2>
+            <p>A World Wide Web (tradução em português: Rede Mundial de Computadores; em inglês: <abbr
+                    title="World Wide Web">WWW</abbr>, A Web) designa um sistema de documentos em hipermídia (ou
+                hipermédia) que são interligados e executados na Internet.</p>
+            <figure>
+                <img class="mudar" src="imagens/www.png" alt="Logo WWW">
+                <figcaption>O logo histórico da <abbr title="World Wide Web">WWW</abbr></figcaption>
+            </figure>
+            <p>Os documentos podem estar na forma de vídeos, sons, hipertextos e imagens. Para consultar a informação,
+                pode-se usar um programa de computador chamado navegador (como Internet Explorer, Google Chrome, Mozilla
+                Firefox, Microsoft Edge, Opera, etc.), para descarregar informações (chamadas "documentos" ou "páginas")
+                de servidores web (ou "sítios") e mostrá-los na tela do usuário. O usuário pode então seguir as
+                hiperligações na página para outros documentos ou mesmo enviar informações de volta para o servidor para
+                interagir com ele. O ato de seguir hiperligações é, comumente, chamado "navegar" ou "surfar" na Web.</p>
+        </article>
+
+        <section>
+            <h3>História</h3>
+            <p>As ideias por trás da Web podem ser identificadas ainda em 1980, no CERN (Organização Europeia para a
+                Investigação Nuclear), na Suíça, quando Tim Berners-Lee construiu o ENQUIRE. Ainda que diferente da Web
+                atual (2007), o projeto continha algumas das mesmas ideias primordiais, e também algumas ideias da Web
+                semântica. Seu intento original do sistema foi tornar mais fácil o compartilhamento de documentos de
+                pesquisas entre os colegas.</p>
+            <figure>
+                <img class="mudar" src="imagens/webserver.jpg" alt="Primeiro servidor web">
+                <figcaption>O primeiro servidor web, um NeXTcube usado por Berners-Lee no CERN</figcaption>
+            </figure>
+            <p>Em 1989, Tim Berners-Lee escreveu uma proposta de gerenciamento de informação, que referenciava o ENQUIRE
+                e descrevia um sistema de informação mais elaborado. Com a ajuda de Robert Cailliau, ele publicou uma
+                proposta mais formal para a World Wide Web no final de 1990.</p>
+        </section>
+
+        <section>
+            <h3>Funcionamento</h3>
+            <p>Visualizar uma página ou outro recurso disponibilizado normalmente inicia ou ao digitar uma <abbr
+                    title="Uniform Resource    Locator">URL</abbr> no navegador ou acessando uma hiperligação.
+                Primeiramente, a parte da <abbr title="Uniform Resource   Locator">URL </abbr> referente ao servidor de
+                rede é separada e transformada em um endereço <abbr title="Internet     Protocol">IP</abbr>, por um
+                banco de dados da Internet chamado Domain Name System (DNS). O navegador estabelece, então, uma conexão
+                <abbr title="Transmission Control Protocol">TCP</abbr>/<abbr title="Internet Protocol">IP</abbr> com o
+                servidor web localizado no endereço <abbr title="Internet Protocol">IP</abbr> retornado.</p>
+            <figure>
+                <img class="mudar" src="imagens/cern_datacenter.jpg" alt="Datacenter da CERN 2010">
+                <figcaption>O datacenter da CERN em 2010 abrigando alguns servidores <abbr
+                        title="World Wide Web">WWW</abbr></figcaption>
+            </figure>
+            <p>O próximo passo é o navegador enviar uma requisição <abbr title="Hypertext Transfer Protocol">HTTP</abbr>
+                ao servidor para obter o recurso indicado pela parte restante da <abbr
+                    title="Uniform Resource Locator">URL</abbr> (retirando-se a parte do servidor). No caso de uma
+                página web típica, o texto em <abbr title="HyperText Markup Language">HTML</abbr> é recebido e
+                interpretado pelo navegador, que realiza então requisições adicionais para figuras, arquivos de
+                formatação, arquivos de script e outros recursos que fazem parte da página. <br>
+                O navegador, então, renderiza (reconstitui) a página no ecrã do utilizador, assim como descrita pelos
+                arquivos que a compõe.</p>
+            <p><a href="index.html">Voltar para página inicial</a></p>
+        </section>
+        <hr>
+    </main>
+</body>
+
+</html>
